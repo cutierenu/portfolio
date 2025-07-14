@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <!-- link to font awesome for inserting icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- link to css for style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo"><i>WEB DEVELOPER</i></div>
+                <div class="nav-links">
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="Home">
+        <div class="hero-content">
+            <h1>Hi, I'm <span> Renuga devi</span><br>Web Developer</h1>
+            <p>I create immersive digital experiences with cutting-edge web technologies. My passion is turning ideas into interactive realities that captivate users.</p>
+            <a href="#Contact" class="cta-button">Get In Touch</a>
+        </div>
+
+        <div class="profile-container">
+            <div class="profile-border"></div>
+            <div class="tech-icons">
+                <i class="tech-icon" style="top: 0; left: 50%; transform: translateX(-50%);"></i>
+                <i class="tech-icon" style="top: 50%; right: 0; transform: translateY(-50%);"></i>
+                <i class="tech-icon" style="bottom: 0; left: 50%; transform: translateX(-50%);"></i>
+                <i class="tech-icon" style="top: 50%; left: 0; transform: translateY(-50%);"></i>
+            </div>
+            <img src="renu.jpg" alt="renu" width="300px" class="profile-pic">
+        </div>
+    </section>
+   
+    <!-- About Section -->
+    <section class="About" id="About">
+        <h2 class="section-title">About Me</h2>
+        <div class="About-content">
+            <div class="About-text">
+                <p> "I've always been fascinated by how websites work,and that curiosity has turned into a real passion. After completing my 12th, I started learning to  build websites on my own. Right now, I'm creating my very first website from scratch - every line of code I write makes me more excited about the IT world. This hands-on experience has made it clesr: I want to build my future in the IT feild. I'm determined to keep learning,growing, and one day become a successful web developer."</p>
+            
+            </div>
+
+            <div class="skills">
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>c language</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>c++</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>html&css</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+
+                </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Contact Section -->
+    <section class="Contact" id="Contact">
+        <h2 class="section-title">Get In Touch</h2>
+
+        <form class="Contact-form">
+
+            <div class="form-group">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" id="name" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" id="subject" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" class="form-textarea" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p class="copyright">© 2025 Renu. All rights reserved.</p>
+    </footer>
+
+
+
+<!-- link to JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
